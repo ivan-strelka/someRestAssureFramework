@@ -1,6 +1,6 @@
 package com.testing.utils;
 
-public class Utils {
+public class ConfigManager {
 
 
 }

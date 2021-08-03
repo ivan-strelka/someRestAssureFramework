@@ -1,0 +1,37 @@
+{
+  "justComment": "db.json // for https://github.com/typicode/json-server  // json-server --watch db.json",
+  "ping": {
+    "result": "pong"
+  },
+  "users": [
+    {
+      "email": "Stanford.Bauch@gmail.com",
+      "password": "TvS3MK9kNpODg1T",
+      "id": 1
+    },
+    {
+      "id": 533,
+      "email": "Orlo_Morar@hotmail.com",
+      "password": "MNyh8Hslc8wMwhg"
+    }
+  ],
+  "persons": [
+    {
+      "id": "1",
+      "firstName": "John453",
+      "lastName": "Doe970",
+      "age": 509,
+      "address": "SPb 174",
+      "phone": "1233353"
+    },
+    {
+      "id": 164,
+      "firstName": "Elwyn",
+      "lastName": "Cormier",
+      "age": 426,
+      "address": "SPb + 309",
+      "phone": "1233-32-1231 + 184"
+    }
+  ]
+}
+

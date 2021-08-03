@@ -1,0 +1,11 @@
+package com.testing.constants;
+
+public class Endpoints {
+
+    public static final String GET_ALL_PERSON = "/persons";
+    public static final String GET_SINGLE_PERSON = "/persons/{id}";
+    public static final String CREATE_PERSON = "/persons/{id}";
+    public static final String UPDATE_PERSON = "/persons/{id}";
+
+
+}
