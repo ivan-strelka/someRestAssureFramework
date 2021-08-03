@@ -6,13 +6,13 @@ import java.util.Properties;
 
 public class ConfigManager {
 
-    private static final Properties prop = new Properties();
+    private static Properties prop = new Properties();
     private static ConfigManager manager;
 
     private ConfigManager() throws IOException {
-
         InputStream stream = ConfigManager.class.getResourceAsStream("../resources/config.properties");
         prop.load(stream);
+
     }
 
 

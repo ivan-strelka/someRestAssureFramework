@@ -1,6 +1,7 @@
+package com.testing.models;
+
 import com.fasterxml.jackson.annotation.*;
 
-import javax.annotation.Generated;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -13,7 +14,6 @@ import java.util.Map;
         "address",
         "phone"
 })
-@Generated("jsonschema2pojo")
 public class Person {
 
     @JsonProperty("id")
